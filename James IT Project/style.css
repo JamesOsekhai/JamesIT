@@ -1,0 +1,116 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.temp{
+    margin-top: 70px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.img-cal{
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+}
+.img-cal img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.temp h3{
+    margin-top: 20px;
+    color: rgb(12, 85, 12);
+    text-align: center;
+}
+.a{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.a a{
+    background: rgb(12, 85, 12);
+    padding: 10px 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+
+/****calculator***/
+
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.cF{
+    margin-top: 30px;
+    width: 80%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.form{
+    margin-top: 5px;
+
+}
+.input input{
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(12, 85, 12);
+    outline: none;
+}
+.form button{
+    padding: 7px 10px;
+    background: rgb(12, 85, 12);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+
+.back{
+    margin-top: 20px;
+}
+.back a{
+    padding: 10px 20px;
+    background: rgb(12, 85, 12);
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
